@@ -37,10 +37,12 @@ The dataset contains 18,185 rice grain samples with 11 features:
 
 ### Confusion Matrix
 
+![Confusion Matrix](confusion_matrix.png)
+
 ```
 Confusion Matrix:
-[[1599   33]
- [  12 1993]]
+[[8016  184]
+ [  63 9922]]
 ```
 
 ### Classification Report
@@ -48,12 +50,12 @@ Confusion Matrix:
 ```
               precision    recall  f1-score   support
 
-     Class 0       0.99      0.98      0.99      1632
-     Class 1       0.98      0.99      0.99      2005
+     Class 0       0.99      0.98      0.98      8200
+     Class 1       0.98      0.99      0.99      9985
 
-    accuracy                           0.99      3637
-   macro avg       0.99      0.99      0.99      3637
-weighted avg       0.99      0.99      0.99      3637
+    accuracy                           0.99     18185
+   macro avg       0.99      0.99      0.99     18185
+weighted avg       0.99      0.99      0.99     18185
 ```
 
 ## Requirements
