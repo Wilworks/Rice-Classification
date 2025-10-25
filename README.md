@@ -35,6 +35,27 @@ The dataset contains 18,185 rice grain samples with 11 features:
 - **Validation Accuracy**: ~98.10%
 - **Test Accuracy**: ~98.63%
 
+### Confusion Matrix
+
+```
+Confusion Matrix:
+[[1599   33]
+ [  12 1993]]
+```
+
+### Classification Report
+
+```
+              precision    recall  f1-score   support
+
+     Class 0       0.99      0.98      0.99      1632
+     Class 1       0.98      0.99      0.99      2005
+
+    accuracy                           0.99      3637
+   macro avg       0.99      0.99      0.99      3637
+weighted avg       0.99      0.99      0.99      3637
+```
+
 ## Requirements
 
 - Python 3.8+
